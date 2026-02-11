@@ -5,17 +5,17 @@ go 1.24.4
 require (
 	github.com/Dynatrace/dynatrace-otel-collector/internal/testcommon v0.0.0
 	github.com/google/uuid v1.6.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils v0.129.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.129.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.129.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/xk8stest v0.129.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/testbed v0.129.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils v0.145.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.145.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.145.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/xk8stest v0.145.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/testbed v0.145.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v1.35.0
-	go.opentelemetry.io/collector/consumer v1.35.0
-	go.opentelemetry.io/collector/consumer/consumertest v0.129.0
-	go.opentelemetry.io/collector/pdata v1.35.0
-	go.opentelemetry.io/collector/semconv v0.128.1-0.20250610090210-188191247685
+	go.opentelemetry.io/collector/component v1.51.0
+	go.opentelemetry.io/collector/consumer v1.51.0
+	go.opentelemetry.io/collector/consumer/consumertest v0.145.0
+	go.opentelemetry.io/collector/pdata v1.51.0
+	go.opentelemetry.io/collector/semconv 7fd6565b9e1d
 	gopkg.in/yaml.v3 v3.0.1
 )
 
